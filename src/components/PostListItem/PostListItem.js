@@ -1,3 +1,4 @@
+import {StarIcon, TrashIcon, HeartIcon} from '@primer/octicons-react'
 import './post-list-item.css'
 
 const PostListItem = () => {
@@ -10,14 +11,14 @@ const PostListItem = () => {
                 <button 
                     type='button' 
                     className='btn-star btn-sm'>
-                    <i className='far fa-star'></i>
+                    <StarIcon />
                 </button>
                 <button 
                     type='button' 
                     className='btn-trash btn-sm'>
-                    <i className='far fa-trash'></i>
+                    <TrashIcon />
                 </button>
-                <i class="fas fa-camera"></i>
+                <HeartIcon />
             </div>
         </li>
     )
