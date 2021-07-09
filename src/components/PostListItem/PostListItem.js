@@ -3,7 +3,7 @@ import './post-list-item.css'
 
 const PostListItem = () => {
     return (
-        <li className='add-list-item d-flex justify-content-between'>
+        <li className='app-list-item d-flex justify-content-between'>
             <span className='app-list-item-label'>
                 Hello Nurs
             </span>

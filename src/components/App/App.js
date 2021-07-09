@@ -3,6 +3,7 @@ import SearchPanel from '../SearchPanel/SearchPanel';
 import PostFilter from '../PostFilter/PostFilter';
 import PostList from '../PostList/PostList';
 import PostAddForm from '../PostAddForm/PostAddForm';
+import './app.css';
 
 const App = () => {
   return (
